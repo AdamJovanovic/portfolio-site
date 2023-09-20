@@ -1,0 +1,17 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.page-load-fade {
+    animation: fadeIn 5s;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #EBD5B3;
+}
